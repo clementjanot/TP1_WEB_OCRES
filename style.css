@@ -5,17 +5,25 @@
     background-color: #99A66A;
     
 }
+
 .col-3 img{
     width: 90%;
     border-radius: 50%; 
     padding: 5px;
     
 }
+
 .col-5 p{
     text-align: right;
     font-size: 1.4vw;
     vertical-align: middle;
     
+}
+.col-5 a{
+    color: black;
+}
+.col-5 a:hover{
+    color: blanchedalmond;
 }
 h1{
     font-size: 4vw;
@@ -40,7 +48,7 @@ i {
 .col-2{
     text-align: center;
     vertical-align: middle;
-    background-color:#D9D9D9 ;
+    border-right:  1px solid #022601 ;
     
 }
 .col-2 .Localisation{
@@ -70,3 +78,16 @@ i {
      color: #022601;
      height: 3px;
  }
+/*Style du formulaire de Contact*/
+
+ .TitreF{
+    text-align: center;
+    padding: 20px;
+    vertical-align: center;
+}
+.FormulaireC{
+    margin-top: 30px;
+    margin-left:30%;
+    margin-right: auto;
+
+}
